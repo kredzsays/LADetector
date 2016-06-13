@@ -40,7 +40,7 @@ You must set environment variables within *pre-normalization-scoring.sh* before 
     ######################################
     TO DO before you run this script
     SCRIPTS=PATH_TO_DamID-LADetector_folder
-    #Enter the path of your scripts folder.
+    #Enter the path of your scripts folder/1_fastq_quality_trimmer.pl.
     BUILD=PATH_TO_reference_index_folder
     #Enter the path of your reference index folder.
     #mm9 and hg38 are provided
@@ -51,7 +51,7 @@ For example:
 
   
     SCRIPTS=/home-4/trl@jhmi.edu/scratch/ladetector/scripts/1_fastq_quality_trimmer.pl
-    #Enter the path of your scripts folder.
+    #Enter the path of your scripts folder/1_fastq_quality_trimmer.pl.
     BUILD=/home-4/trl@jhmi.edu/scratch/genomes/mm9/mm9
     #Enter the path of your reference index folder.
     #mm9 and hg38 are provided
@@ -93,7 +93,7 @@ You must set environment variables within *LADs\_and\_DIPs.sh*
     ######################################
     TO DO before you run this script
     SCRIPTS=PATH_TO_DamID-LADetector_folder
-    #Enter the path of your LADetector_folder
+    #Enter the path of LADs_andDIPs.sh
     GENOME=PATH_TO_mm9.genome
     #Enter the path to mm9.genome file - format:   chr    chrSize   
     UNALIGNABLE=PATH_TO_mm9.unalignable.genome
@@ -102,7 +102,7 @@ You must set environment variables within *LADs\_and\_DIPs.sh*
 For example:
 
     SCRIPTS=/home-4/trl@jhmi.edu/scratch/ladetector/scripts/LADetector_scripts/LADs_and_DIPs.sh
-    #Enter the path of your LADetector_folder
+    #Enter the path of LADs_andDIPs.sh
     GENOME=/home-4/trl@jhmi.edu/scratch/ladetector/scripts/LADetector_scripts/mouse.mm9.genome
     #Enter the path to mm9.genome file - format:   chr    chrSize   
     UNALIGNABLE=/home-4/trl@jhmi.edu/scratch/ladetector/scripts/LADetector_scripts/mm9.unalignable.txt
