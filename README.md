@@ -33,7 +33,7 @@ This program can be divided into three parts; **mapping**, **normalization** and
 
 This part of the program is illustrated and described in figure 1.
 
-![ladetector_figure1](https://cloud.githubusercontent.com/assets/17512466/16016695/44c5ad74-316a-11e6-9257-c2d2668c5ecc.png)
+![ladetector_figure1_1](https://cloud.githubusercontent.com/assets/17512466/16018097/e5e44ff2-3170-11e6-8e4f-d7d8aaf7300a.png)
 
 You must set environment variables within *pre-normalization-scoring.sh* before running, directions are in the header:
 
@@ -86,7 +86,7 @@ The output of this program yields the normalized log2ratios bed file.
 
 The central part of the algorithm is illustrated and described in figure 2.
 
-![ladetector_figure2](https://cloud.githubusercontent.com/assets/17512466/16017445/e7f099ca-316d-11e6-8a81-fcd041b64b28.png)
+![ladetector_figure2_1](https://cloud.githubusercontent.com/assets/17512466/16018096/e5dd9662-3170-11e6-9d3a-794dc675b05c.png)
 
 You must set environment variables within *LADs\_and\_DIPs.sh* 
 
