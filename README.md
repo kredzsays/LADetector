@@ -19,7 +19,7 @@ This program can be divided into three parts; **mapping**, **normalization** and
 
   1.2 Installation of [bowtie] (http://bowtie-bio.sourceforge.ne/tutorial.shtml), [bedtools] (http://bedtools.readthedocs.org/en/latest/content/installation.html), [samtools] (http://samtools.sourceforge.net/) and [R] (https://www.r-project.org/) (for LADetector) is required. 
 
- 1.3 Create a folder to contain pre-built indexes for mapping (this workflow uses bowtie). Some pre-built indexes specific for bowtie can be downloaded from the [bowtie website] (http://bowtie-bio.sourceforge.net/tutorial.shtml/)
+ 1.3 Create a folder to contain pre-built indexes for mapping (this workflow uses bowtie). Some pre-built indexes specific for bowtie can be downloaded from the [bowtie website] (http://bowtie-bio.sourceforge.net/tutorial.shtml)
 
  1.4 Have a copy of the genomic bins in the unpacked DamID-LADetector folder. In our analysis, we used genomic bins flanked by GATC sites (DPNI and DPNII digestion sites) from the mm9 build. We have provided the bins for mm9 and hg38 in the DamID-LADetector folder. If you are using other genomes or builds you will need to provide them yourself.
 
