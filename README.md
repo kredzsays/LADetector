@@ -15,13 +15,13 @@ This program can be divided into three parts; **mapping**, **normalization** and
 ## Command line tool
 ### 1. Installation
 
-  1.1 Usage of the LADetector requires downloading all files and scripts. The full set of files can be found in DamID-LADetector.tgz. Examples are included.
+  1.1 Usage of the LADetector requires downloading all files and scripts. The full set of scripts necessary can be found in LADetector_8122016.tar.gz. Some necessary files required for including alignable and unalignable regions are included in the repo. 
 
-  1.2 Installation of [bowtie] (http://bowtie-bio.sourceforge.ne/tutorial.shtml), [bedtools] (http://bedtools.readthedocs.org/en/latest/content/installation.html), [samtools] (http://samtools.sourceforge.net/) and [R] (https://www.r-project.org/) (for LADetector) is required. 
+  1.2 Installation of [bowtie] (http://bowtie-bio.sourceforge.ne/tutorial.shtml), [bedtools] (http://bedtools.readthedocs.org/en/latest/content/installation.html), [samtools] (http://samtools.sourceforge.net/) and [R] (https://www.r-project.org/) (for LADetector) is required. These are executables, please be sure to include their locations in your [PATH] (http://www.computerhope.com/issues/ch001647.htm).
 
- 1.3 Create a folder to contain pre-built indexes for mapping (this workflow uses bowtie). Some pre-built indexes specific for bowtie can be downloaded from the [bowtie website] (http://bowtie-bio.sourceforge.net/tutorial.shtml)
+ 1.3 Create a folder to contain pre-built indexes for mapping (this workflow uses bowtie). Pre-built indexes for many genome builds that are specific for bowtie can be downloaded from the [bowtie website] (http://bowtie-bio.sourceforge.net/tutorial.shtml). You must have these for correct mapping. 
 
- 1.4 Have a copy of the genomic bins in the unpacked DamID-LADetector folder. In our analysis, we used genomic bins flanked by GATC sites (DPNI and DPNII digestion sites) from the mm9 build. We have provided the bins for mm9 and hg38 in the DamID-LADetector folder. If you are using other genomes or builds you will need to provide them yourself.
+ 1.4 Have a copy of the genomic bins in the unpacked LADetector folder. In our analysis, we used genomic bins flanked by GATC sites (DPNI and DPNII digestion sites) from the mm9 build. We have provided the bins for mm9 and hg38 in the LADetector folder. If you are using other genomes or builds you will need to provide them yourself.
 
  1.5 Define environment variables. Each script is defined in Usage section, and directions for setting environment variables are provided in the header of each script.
 
