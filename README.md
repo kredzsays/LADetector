@@ -21,7 +21,7 @@ This program can be divided into three parts; **mapping**, **normalization** and
 
  1.3 Create a folder to contain pre-built indexes for mapping (this workflow uses bowtie). Pre-built indexes for many genome builds that are specific for bowtie can be downloaded from the [bowtie website] (http://bowtie-bio.sourceforge.net/tutorial.shtml). You must have these for correct mapping. 
 
- 1.4 Have a copy of the genomic bins in the unpacked LADetector folder (available for [download] (https://github.com/thereddylab/LADetector/raw/master/LADetector_8122016.tar.gz) as mentioned above). In our analysis, we used genomic bins flanked by GATC sites (DPNI and DPNII digestion sites) from the mm9 build. We have provided the bins for mm9 and hg38 downloadble from the repository. If you are using other genomes or builds you will need to provide them yourself.
+ 1.4 Have a copy of the genomic bins in the unpacked LADetector folder (available for [download] (https://github.com/thereddylab/LADetector/raw/master/LADetector_8122016.tar.gz) as mentioned above). In our analysis, we used genomic bins flanked by GATC sites (DPNI and DPNII digestion sites) from the mm9 build. We have provided the bins for [mm9] (https://github.com/thereddylab/LADetector/raw/master/DpnIIbins_mm9.bed.gz) and [hg38] (https://github.com/thereddylab/LADetector/raw/master/DpnIIbins_hg38.bed.gz) downloadble from the repository. If you are using other genomes or builds you will need to provide them yourself.
 
  1.5 Define environment variables. Each script is defined in Usage section, and directions for setting environment variables are provided in the header of each script.
 
@@ -138,4 +138,4 @@ The important output files for LADetector will be appended with **.LADs**, **.DI
 * **.DIPs** stores intervals for **DIPs** in bed format
 * **.bedgraph** stores the **log2-ratios** with unalignable regions removed.
 
-Updated 12/1/2016 TRL
+Updated 12/2/2016 TRL
