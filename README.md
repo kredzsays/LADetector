@@ -1,8 +1,11 @@
 #DamID Sequencing Analysis and LADetector Algorithm for LAD Segmentation
-For a detailed description of the DamID-sequencing protocol and the benchmarking of our program, please refer to:
-*“LADetector: a rapid, large-domain calling algorithm that allows for accurate identification of edges and dips with both ChIP and DamID technologies“* Wong and Luperchio et al.
+The LADetector scripts and approach have been used in these publications:
 
-*If you use our program to analyze your data in a published work, please cite the above paper in your publication.*
+J.C. Harr, T.R. Luperchio, X. Wong, E. Cohen, S.J. Wheelan, K.L. Reddy. "Directed targeting of chromatin to the nuclear lamina is mediated by chromatin state and A-type lamins", JCB January 5 2015, DOI: 10.1083/jcb.201405110
+
+T.R. Luperchio, M.E.G. Sauria, X. Wong, M-C Gaillard, P. Tsang, K. Pekrun, R.A. Ach, N.A. Yamada, J. Taylor, K.L. Reddy. "Chromosome Conformation Paints Reveal The Role Of Lamina Association In Genome Organization And Regulation", BioRxiv March 30 2017, DOI:https://doi.org/10.1101/122226 
+
+*If you use our program to analyze your data in a published work, please cite the above papers and this repository in your publication.*
 
 For questions about usage, please email Xianrong Wong: xwong2@jhu.edu, Teresa Luperchio: trl@jhmi.edu, or Karen Reddy: kreddy4@jhmi.edu.
 
